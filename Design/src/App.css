@@ -1,0 +1,16 @@
+@font-face{
+  font-family: 'samane';
+  src: url('./fonts/IRANSansWeb.ttf');
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: 'samane';
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

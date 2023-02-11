@@ -1,0 +1,34 @@
+.page-section {
+    padding: 2rem 0 !important;
+  }
+  /* .card {
+    border:1px solid blue;
+  } */
+  
+  .card-inside {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 15rem;
+    overflow: hidden;
+    border:1px solid rgb(176 198 231);
+
+  }
+  
+  
+  .card-inside .card-inside-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgb(166, 231, 190);
+    border: 1px solid rgb(115, 158, 131);    
+  }
+  
+  .card-inside .card-inside-caption:hover {
+    opacity: 0.9;
+  }
+  
+  .card-inside-caption-content {
+    font-size: 1.5rem;
+  }

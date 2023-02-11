@@ -1,0 +1,9 @@
+.class-div,.class-drop{
+    background-color: rgb(176 198 231);
+}
+
+.class-drop:hover{
+    background-color: white;
+    color:rgb(1, 8, 19);
+
+}
